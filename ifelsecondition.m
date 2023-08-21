@@ -1,0 +1,10 @@
+rating = randi ([0,10], [1])
+if (rating>0)&&(rating<=3)
+    fprintf ('poor')
+elseif (rating>3)&&(rating<=5)
+    fprintf('average')
+elseif (rating>5)&&(rating<=7)
+    fprintf ('good')
+elseif (rating>7)&&(rating<=10)
+    fprintf ('excellent')
+end
